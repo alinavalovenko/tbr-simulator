@@ -1,0 +1,388 @@
+/*
+Theme Name:     The Thoroughbred Racing Simulator
+Theme URI:      http://www.tbrsimulatorbeta.com/index.php
+Author:         Alina Valovenko
+Author url:     http://www.valovenko.pro
+Version:        0.1.0
+Text Domain: 	tbr
+*/
+a
+{
+    font-family:arial;
+    font-size:8pt;
+    font-weight:bold;
+    text-decoration:none;
+    line-height:"100%";
+    color:#003300;
+}
+
+a.black-lite
+{
+    font-family:arial;
+    font-size:8pt;
+    font-weight:normal;
+    text-decoration:none;
+    line-height:"100%";
+    color:black;
+}
+
+a:hover
+{
+    text-decoration:underline;
+}
+
+a.black-v:visited
+{
+    color:BLUE;
+}
+
+a.black-lite-v:visited
+{
+    color:BLUE;
+}
+
+h1
+{
+    font-family:arial;
+    font-size:15pt;
+    font-weight:bold;
+    text-decoration:none;
+    line-height:"100%";
+    color:BLACK;
+}
+
+h2
+{
+    font-family:arial;
+    font-size:12pt;
+    font-weight:bold;
+    text-decoration:none;
+    line-height:"100%";
+    color:BLACK;
+}
+
+h3
+{
+    font-family:arial;
+    font-size:10pt;
+    font-weight:bold;
+    text-decoration:none;
+    line-height:"100%";
+    color:BLACK;
+}
+
+p
+{
+    font-family:arial;
+    font-size:8pt;
+    font-weight:normal;
+    text-decoration:none;
+    line-height:"100%";
+    color:BLACK;
+}
+
+.red-16
+{
+    font-family:arial;
+    font-size:12pt;
+    font-weight:bold;
+    text-decoration:none;
+    line-height:"100%";
+    color: red;
+}
+
+.red-25
+{
+    font-family:arial;
+    font-size:25pt;
+    font-weight:bold;
+    text-decoration:none;
+    line-height:"100%";
+    color: red;
+}
+
+.black-6
+{
+    font-family:arial;
+    font-size:6pt;
+    font-weight:bold;
+    text-decoration:none;
+    line-height:"100%";
+    color:BLACK;
+}
+
+.black
+{
+    font-family:arial;
+    font-size:8pt;
+    font-weight:bold;
+    text-decoration:none;
+    line-height:"100%";
+    color:BLACK;
+}
+
+.black-10
+{
+    font-family:arial;
+    font-size:10pt;
+    font-weight:bold;
+    text-decoration:none;
+    line-height:"100%";
+    color:BLACK;
+}
+
+.black-G-10
+{
+    font-family:arial;
+    font-size:10pt;
+    font-weight:bold;
+    text-decoration:none;
+    line-height:"100%";
+    color:BLACK;
+    background-color:GRAY;
+}
+
+.black-12
+{
+    font-family:arial;
+    font-size:12pt;
+    font-weight:bold;
+    text-decoration:none;
+    line-height:"100%";
+    color:#000000;
+}
+
+.black-14
+{
+    font-family:arial;
+    font-size:14pt;
+    font-weight:bold;
+    text-decoration:none;
+    line-height:"100%";
+    color:#000000;
+}
+
+.black-16
+{
+    font-family:arial;
+    font-size:16pt;
+    font-weight:bold;
+    text-decoration:none;
+    line-height:"100%";
+    color:#000000;
+}
+
+.black-25
+{
+    font-family:arial;
+    font-size:25pt;
+    font-weight:bold;
+    text-decoration:none;
+    line-height:"100%";
+    color:#000000;
+}
+
+.black-32
+{
+    font-family:arial;
+    font-size:32pt;
+    font-weight:bold;
+    text-decoration:none;
+    line-height:"100%";
+    color:#000000;
+}
+
+.black-40
+{
+    font-family:arial;
+    font-size:40pt;
+    font-weight:bold;
+    text-decoration:none;
+    line-height:"100%";
+    color:#000000;
+}
+
+.black-lite
+{
+    font-family:arial;
+    font-size:8pt;
+    font-weight:normal;
+    text-decoration:none;
+    line-height:"100%";
+    color:BLACK;
+}
+
+
+.black-lite-10
+{
+    font-family:arial;
+    font-size:10pt;
+    font-weight:normal;
+    text-decoration:none;
+    line-height:"100%";
+    color:BLACK;
+}
+
+.black-lite-G-10
+{
+    font-family:arial;
+    font-size:10pt;
+    font-weight:normal;
+    text-decoration:none;
+    line-height:"100%";
+    color:BLACK;
+    background-color:GRAY;
+}
+
+.black-lite-12
+{
+    font-family:arial;
+    font-size:12pt;
+    font-weight:normal;
+    text-decoration:none;
+    line-height:"100%";
+    color:#000000;
+}
+
+.black-lite-14
+{
+    font-family:arial;
+    font-size:14pt;
+    font-weight:normal;
+    text-decoration:none;
+    line-height:"100%";
+    color:#000000;
+}
+
+.black-lite-16
+{
+    font-family:arial;
+    font-size:16pt;
+    font-weight:normal;
+    text-decoration:none;
+    line-height:"100%";
+    color:#000000;
+}
+
+.black-lite-25
+{
+    font-family:arial;
+    font-size:25pt;
+    font-weight:normal;
+    text-decoration:none;
+    line-height:"100%";
+    color:#000000;
+}
+
+.black-ul
+{
+    font-family:arial;
+    font-size:8pt;
+    font-weight:bold;
+    text-decoration:underline;
+    line-height:"100%";
+    color:#000000;
+}
+
+.reverse-10
+{
+    font-family:arial;
+    font-size:10pt;
+    font-weight:bold;
+    text-decoration:none;
+    line-height:"100%";
+    color:WHITE;
+    background-color:BLACK;
+}
+
+
+.reverse-12
+{
+    font-family:arial;
+    font-size:12pt;
+    font-weight:bold;
+    text-decoration:none;
+    line-height:"100%";
+    color:WHITE;
+    background-color:BLACK;
+}
+
+
+.reverse-16
+{
+    font-family:arial;
+    font-size:16pt;
+    font-weight:bold;
+    text-decoration:none;
+    line-height:"100%";
+    color:WHITE;
+    background-color:BLACK;
+}
+
+.reverse-25
+{
+    font-family:arial;
+    font-size:25pt;
+    font-weight:bold;
+    text-decoration:none;
+    line-height:"100%";
+    color:WHITE;
+    background-color:BLACK;
+}
+
+.shaded-1
+{
+    border: 1px solid black;
+    background-color: grey;
+}
+
+.boxed-1
+{
+    border: 1px solid black;
+}
+
+.boxed-2
+{
+    border: 2px solid black;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -30px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
