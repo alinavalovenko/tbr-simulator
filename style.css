@@ -1,3 +1,13 @@
+@charset "UTF-8";
+/*
+Theme Name: The Thoroughbred Racing Simulator
+Author: Alina Valovenko
+Author URI: http://valovenko.pro/
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: tbr
+*/
 body {
     margin: 0;
     padding: 0;
