@@ -17,20 +17,20 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?> >
-<div class="site-wrapper">
+<div class="site-wrapper container-fluid" style="background-image: url(<?php echo TBR_IMAGES . '_bg.gif'?>);">
     <header class="row">
         <div class="col-sm-2"><img src="<?php echo TBR_IMAGES . 'Juva.jpg' ?>"
                                    alt="Thoroughbred Racing Simulator is an exciting new weapon for Handicappers of Thoroughbred Horse Racing.">
         </div>
         <div class="col-sm-8">
             <div class="logo">
-                <a href="<?php esc_url( home_url( '/' ) ); ?>">
-                    <span class="site-description"><?php get_bloginfo( 'description', 'display' ); ?></span>
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+                    <span class="site-description"><?php echo get_bloginfo('description', 'display');  ?></span>
                     <span class="site-title"><?php bloginfo( 'name' ); ?></span>
                 </a>
             </div>
         </div>
-        <div class="col-sm-2"><img src="<?php echo TBR_IMAGES . 'rush.jpg' ?>"
+        <div class="col-sm-2 text-right"><img src="<?php echo TBR_IMAGES . 'rush.jpg' ?>"
                                    alt="Thoroughbred Racing Simulator uses a combination of quantified relative strengths of the entries in a horse race and Monte Carlo Simulation to predict the win probability of each entry and the odds that should be accepted to make the risk of betting on a particular entry worthwhile.">
         </div>
     </header>

@@ -1,388 +1,74 @@
-/*
-Theme Name:     The Thoroughbred Racing Simulator
-Theme URI:      http://www.tbrsimulatorbeta.com/index.php
-Author:         Alina Valovenko
-Author url:     http://www.valovenko.pro
-Version:        0.1.0
-Text Domain: 	tbr
-*/
-a
-{
-    font-family:arial;
-    font-size:8pt;
-    font-weight:bold;
-    text-decoration:none;
-    line-height:"100%";
-    color:#003300;
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    font-size: 14pt;
+    font-family: Arial;
 }
 
-a.black-lite
-{
-    font-family:arial;
-    font-size:8pt;
-    font-weight:normal;
-    text-decoration:none;
-    line-height:"100%";
-    color:black;
+.site-wrapper{
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color: rgb(255, 255, 255);
+}
+a{
+    color: #000;
 }
 
-a:hover
-{
-    text-decoration:underline;
-}
+h1{ font-size: 2em;}
+h2{ font-size: 1.8em;}
+h3{ font-size: 1.6em;}
+h4{ font-size: 1.4em;}
+h5{ font-size: 1.2em;}
 
-a.black-v:visited
-{
-    color:BLUE;
-}
-
-a.black-lite-v:visited
-{
-    color:BLUE;
-}
-
-h1
-{
-    font-family:arial;
-    font-size:15pt;
-    font-weight:bold;
-    text-decoration:none;
-    line-height:"100%";
-    color:BLACK;
-}
-
-h2
-{
-    font-family:arial;
-    font-size:12pt;
-    font-weight:bold;
-    text-decoration:none;
-    line-height:"100%";
-    color:BLACK;
-}
-
-h3
-{
-    font-family:arial;
-    font-size:10pt;
-    font-weight:bold;
-    text-decoration:none;
-    line-height:"100%";
-    color:BLACK;
-}
-
-p
-{
-    font-family:arial;
-    font-size:8pt;
-    font-weight:normal;
-    text-decoration:none;
-    line-height:"100%";
-    color:BLACK;
-}
-
-.red-16
-{
-    font-family:arial;
-    font-size:12pt;
-    font-weight:bold;
-    text-decoration:none;
-    line-height:"100%";
-    color: red;
-}
-
-.red-25
-{
-    font-family:arial;
-    font-size:25pt;
-    font-weight:bold;
-    text-decoration:none;
-    line-height:"100%";
-    color: red;
-}
-
-.black-6
-{
-    font-family:arial;
-    font-size:6pt;
-    font-weight:bold;
-    text-decoration:none;
-    line-height:"100%";
-    color:BLACK;
-}
-
-.black
-{
-    font-family:arial;
-    font-size:8pt;
-    font-weight:bold;
-    text-decoration:none;
-    line-height:"100%";
-    color:BLACK;
-}
-
-.black-10
-{
-    font-family:arial;
-    font-size:10pt;
-    font-weight:bold;
-    text-decoration:none;
-    line-height:"100%";
-    color:BLACK;
-}
-
-.black-G-10
-{
-    font-family:arial;
-    font-size:10pt;
-    font-weight:bold;
-    text-decoration:none;
-    line-height:"100%";
-    color:BLACK;
-    background-color:GRAY;
-}
-
-.black-12
-{
-    font-family:arial;
-    font-size:12pt;
-    font-weight:bold;
-    text-decoration:none;
-    line-height:"100%";
-    color:#000000;
-}
-
-.black-14
-{
-    font-family:arial;
-    font-size:14pt;
-    font-weight:bold;
-    text-decoration:none;
-    line-height:"100%";
-    color:#000000;
-}
-
-.black-16
-{
-    font-family:arial;
-    font-size:16pt;
-    font-weight:bold;
-    text-decoration:none;
-    line-height:"100%";
-    color:#000000;
-}
-
-.black-25
-{
-    font-family:arial;
-    font-size:25pt;
-    font-weight:bold;
-    text-decoration:none;
-    line-height:"100%";
-    color:#000000;
-}
-
-.black-32
-{
-    font-family:arial;
-    font-size:32pt;
-    font-weight:bold;
-    text-decoration:none;
-    line-height:"100%";
-    color:#000000;
-}
-
-.black-40
-{
-    font-family:arial;
-    font-size:40pt;
-    font-weight:bold;
-    text-decoration:none;
-    line-height:"100%";
-    color:#000000;
-}
-
-.black-lite
-{
-    font-family:arial;
-    font-size:8pt;
-    font-weight:normal;
-    text-decoration:none;
-    line-height:"100%";
-    color:BLACK;
-}
-
-
-.black-lite-10
-{
-    font-family:arial;
-    font-size:10pt;
-    font-weight:normal;
-    text-decoration:none;
-    line-height:"100%";
-    color:BLACK;
-}
-
-.black-lite-G-10
-{
-    font-family:arial;
-    font-size:10pt;
-    font-weight:normal;
-    text-decoration:none;
-    line-height:"100%";
-    color:BLACK;
-    background-color:GRAY;
-}
-
-.black-lite-12
-{
-    font-family:arial;
-    font-size:12pt;
-    font-weight:normal;
-    text-decoration:none;
-    line-height:"100%";
-    color:#000000;
-}
-
-.black-lite-14
-{
-    font-family:arial;
-    font-size:14pt;
-    font-weight:normal;
-    text-decoration:none;
-    line-height:"100%";
-    color:#000000;
-}
-
-.black-lite-16
-{
-    font-family:arial;
-    font-size:16pt;
-    font-weight:normal;
-    text-decoration:none;
-    line-height:"100%";
-    color:#000000;
-}
-
-.black-lite-25
-{
-    font-family:arial;
-    font-size:25pt;
-    font-weight:normal;
-    text-decoration:none;
-    line-height:"100%";
-    color:#000000;
-}
-
-.black-ul
-{
-    font-family:arial;
-    font-size:8pt;
-    font-weight:bold;
-    text-decoration:underline;
-    line-height:"100%";
-    color:#000000;
-}
-
-.reverse-10
-{
-    font-family:arial;
-    font-size:10pt;
-    font-weight:bold;
-    text-decoration:none;
-    line-height:"100%";
-    color:WHITE;
-    background-color:BLACK;
-}
-
-
-.reverse-12
-{
-    font-family:arial;
-    font-size:12pt;
-    font-weight:bold;
-    text-decoration:none;
-    line-height:"100%";
-    color:WHITE;
-    background-color:BLACK;
-}
-
-
-.reverse-16
-{
-    font-family:arial;
-    font-size:16pt;
-    font-weight:bold;
-    text-decoration:none;
-    line-height:"100%";
-    color:WHITE;
-    background-color:BLACK;
-}
-
-.reverse-25
-{
-    font-family:arial;
-    font-size:25pt;
-    font-weight:bold;
-    text-decoration:none;
-    line-height:"100%";
-    color:WHITE;
-    background-color:BLACK;
-}
-
-.shaded-1
-{
-    border: 1px solid black;
-    background-color: grey;
-}
-
-.boxed-1
-{
-    border: 1px solid black;
-}
-
-.boxed-2
-{
-    border: 2px solid black;
-}
-
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: #555;
-    color: #fff;
+.logo{
     text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
     position: absolute;
-    z-index: 1;
-    bottom: 125%;
+    height: 120px;
+    bottom: 0;
     left: 50%;
-    margin-left: -30px;
-    opacity: 0;
-    transition: opacity 0.3s;
+    transform: translate(-50%, 0);
 }
 
-.tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
+.logo .site-description{
+    font-size: 1.2em;
+    display: block;
+    font-weight: 800;
 }
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
+.logo .site-title{
+    font-size: 2em;
+    display: block;
+    font-weight: 800;
 }
-
-
+.menu {
+    background-color: #000;
+    color: #fff;
+}
+.menu a{
+    color: #fff;
+}
+.menu {
+    display: table;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.menu li{
+    list-style-type: none;
+    display: table-cell;
+    width: 100%;
+}
+.menu li.menu-item-has-children > ul.sub-menu{
+    display: none;
+}
+.menu li.menu-item-has-children:hover ul.sub-menu{
+    display: block;
+}
+ul.sub-menu li{
+    display: block;
+    float: none;
+}
